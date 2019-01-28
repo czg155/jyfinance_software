@@ -5,6 +5,7 @@ import app.controller.database.DatabaseConnect;
 
 public class Database {
 	public static void main(String[] args) {
+		//修改一下测试git
 //		try {
 //	        Class.forName("com.mysql.cj.jdbc.Driver");
 //	        System.out.println("成功加载sql驱动");
