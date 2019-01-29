@@ -14,23 +14,7 @@ public class Hello {
 
         panel.setLayout(null);
 
-        JLabel userLabel = new JLabel("User:");
-        userLabel.setBounds(10,20,80,25);
-        panel.add(userLabel);
-
-        JTextField userText = new JTextField(20);
-        userText.setBounds(100,20,165,25);
-        panel.add(userText);
-
-        JLabel passwordLabel = new JLabel("Password:");
-        passwordLabel.setBounds(10,50,80,25);
-        panel.add(passwordLabel);
-
-        JPasswordField passwordText = new JPasswordField(20);
-        passwordText.setBounds(100,50,165,25);
-        panel.add(passwordText);
-
-        JButton loginButton = new JButton("login");
+        JButton loginButton = new JButton("Èë¿â");
         loginButton.setBounds(10, 80, 80, 25);
         panel.add(loginButton);
         
@@ -38,13 +22,11 @@ public class Hello {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				String u = userText.getText();
-				@SuppressWarnings("deprecation")
-				String p = passwordText.getText();
-				if (u == null && p == null) {
-					Init.frame.removeAll();
-					Init.frame.add(new Buy().buyView());
-				}
+				JFrame f = BaseFrame.getInstance();
+				f.remove(panel);
+				f.repaint();
+				f.add(new Buy().buyView());
+				f.setVisible(true);
 			}
         	
         });
