@@ -4,7 +4,7 @@ import javax.swing.JPanel;
 import javax.swing.JTable;
 import javax.swing.JTextField;
 
-import app.view.index.BaseFrame;
+import view.index.BaseFrame;
 
 public class TableTest {
 	public static void main(String[] args) {

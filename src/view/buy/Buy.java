@@ -1,4 +1,4 @@
-package app.view.buy;
+package view.buy;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -15,8 +15,8 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JTextField;
 
-import app.controller.database.BuyDatabase;
-import app.view.index.BaseFrame;
+import dao.BuyDatabase;
+import view.index.BaseFrame;
 import model.buy.ModelBuy;
 
 public class Buy {

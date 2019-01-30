@@ -1,4 +1,4 @@
-package app.view.buy;
+package view.buy;
 
 import javax.swing.JPanel;
 

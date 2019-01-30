@@ -11,6 +11,7 @@ public class ModelBuy {
 	private String type = "";
 	private String car = "";
 	private double weight = 0;
+	private String tip = "";
 	public String getId() {
 		return id;
 	}
@@ -59,6 +60,11 @@ public class ModelBuy {
 	public void setWeight(double weight) {
 		this.weight = weight;
 	}
-	
+	public String getTip() {
+		return tip;
+	}
+	public void setTip(String tip) {
+		this.tip = tip;
+	}
 	
 }

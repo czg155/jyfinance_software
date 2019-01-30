@@ -1,4 +1,4 @@
-package app.view.index;
+package view.index;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

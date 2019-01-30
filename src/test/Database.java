@@ -1,7 +1,8 @@
 package test;
 
 import java.sql.*;
-import app.controller.database.DatabaseConnect;
+
+import dao.DatabaseConnect;
 
 public class Database {
 	public static void main(String[] args) {

@@ -1,11 +1,11 @@
-package app.view.index;
+package view.index;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
-import app.view.buy.Buy;
+import view.buy.Buy;
 
 public class Hello {
 

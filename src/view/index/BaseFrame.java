@@ -1,4 +1,4 @@
-package app.view.index;
+package view.index;
 
 import javax.swing.JFrame;
 
